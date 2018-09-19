@@ -1,0 +1,31 @@
+{
+  "name": "remark-react-renderer",
+  "version": "0.0.1",
+  "description": "react renderer for remark-render",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmarkdown/remark-react-renderer.git"
+  },
+  "keywords": [
+    "markdown",
+    "remark",
+    "vdom",
+    "virtual-dom",
+    "react"
+  ],
+  "main": "src/renderer.js",
+  "files": [
+    "src"
+  ],
+  "author": "yucopowo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmarkdown/remark-react-renderer/issues"
+  },
+  "homepage": "https://github.com/vmarkdown/remark-react-renderer#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "extend": "^3.0.2"
+  }
+}
