@@ -2,7 +2,9 @@
   "name": "remark-react-renderer",
   "version": "0.0.1",
   "description": "react renderer for remark-render",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vmarkdown/remark-react-renderer.git"
@@ -24,7 +26,20 @@
     "url": "https://github.com/vmarkdown/remark-react-renderer/issues"
   },
   "homepage": "https://github.com/vmarkdown/remark-react-renderer#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "hast-util-to-mdast": "^3.0.0",
+    "mdast-util-compact": "^1.0.2",
+    "mdast-util-to-hast": "^3.0.2",
+    "mocha": "^5.2.0",
+    "react": "^16.5.1",
+    "rehype-parse": "^5.0.0",
+    "remark-parse": "^5.0.0",
+    "remark-stringify": "^5.0.0",
+    "to-vfile": "^5.0.1",
+    "unified": "^7.0.0",
+    "unist-builder": "^1.0.3"
+  },
   "dependencies": {
     "extend": "^3.0.2"
   }

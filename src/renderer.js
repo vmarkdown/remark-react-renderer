@@ -1,6 +1,15 @@
 /**
  * react Renderer
  */
+
+module.exports = {
+
+    root: function(h, node, children) {
+
+    }
+
+};
+
 const extend = require('extend');
 
 function props(node, defaultProps) {
