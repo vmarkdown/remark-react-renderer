@@ -91,7 +91,7 @@ module.exports = {
 
     link : function(h, node, children) {
         return h('a', props(node, {
-            target: '_blank',
+            // target: '_blank',
             href: node.url,
             title: node.title
         }), children);
